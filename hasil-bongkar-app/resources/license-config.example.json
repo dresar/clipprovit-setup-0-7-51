@@ -1,0 +1,4 @@
+{
+  "serverUrl": "https://licenses.example.com",
+  "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nPASTE_ED25519_PUBLIC_KEY_HERE\n-----END PUBLIC KEY-----"
+}

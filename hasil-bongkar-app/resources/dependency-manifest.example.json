@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "dependencies": [
+    {
+      "id": "yt-dlp",
+      "platforms": ["darwin-arm64", "darwin-x64", "win32-x64", "linux-x64"],
+      "url": "https://github.com/yt-dlp/yt-dlp/releases/latest/download/{win32:yt-dlp.exe,default:yt-dlp}",
+      "sha256": "resolved-after-download-and-pinned-for-release"
+    },
+    {
+      "id": "whisper.cpp",
+      "platforms": ["win32-x64"],
+      "url": "https://github.com/ggml-org/whisper.cpp/releases/latest/download/whisper-bin-x64.zip",
+      "sha256": "resolved-after-download-and-pinned-for-release"
+    },
+    {
+      "id": "whisper-model-base",
+      "platforms": ["all"],
+      "url": "https://huggingface.co/ggerganov/whisper.cpp/resolve/main/ggml-base.bin",
+      "sha1": "465707469ff3a37a2b9b8d8f89f2f99de7299dac"
+    },
+    {
+      "id": "mediapipe-face",
+      "platforms": ["all"],
+      "url": "https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/latest/face_landmarker.task",
+      "sha256": "resolved-after-download-and-pinned-for-release"
+    }
+  ]
+}

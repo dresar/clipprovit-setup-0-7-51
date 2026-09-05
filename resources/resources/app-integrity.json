@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "appId": "com.clipprovit.desktop",
+  "productName": "ClipProvit",
+  "version": "0.7.51",
+  "platform": "win32",
+  "arch": "x64",
+  "createdAt": "2026-06-10T11:08:24.026Z",
+  "files": [
+    {
+      "path": "app.asar",
+      "bytes": 55582201,
+      "sha256": "ca977595bb049ddf7201886149a490b712478e9904dd03a5941f1fc683de8ac5"
+    },
+    {
+      "path": "resources/license-config.json",
+      "bytes": 218,
+      "sha256": "7df7330750de7d6c326bda370bd1f227273ed94eed73fa0d16e1a1f902bd751c"
+    },
+    {
+      "path": "app.asar.unpacked/node_modules/ffmpeg-static/ffmpeg.exe",
+      "bytes": 82797568,
+      "sha256": "04e1307997530f9cf2fe35cba2ca7e8875ca91da02f89d6c7243df819c94ad00"
+    }
+  ],
+  "signatureAlgorithm": "ed25519",
+  "signature": "0B0WObOZOkm/yA1PTCy9MSDyyHMfhzJoBPMr++0IXYSDq+7wY7hmUuBMBs8oUxstseLDwxRcwXqTzz44H2TlBA=="
+}

@@ -1,0 +1,4 @@
+provider: generic
+url: https://clipupdates.provi.id
+channel: latest
+updaterCacheDirName: clipprovit-updater
